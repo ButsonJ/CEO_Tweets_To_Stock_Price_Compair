@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+canvas{
+    display: none;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Domine", sans-serif;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.titlez{
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    background: linear-gradient(228deg, rgba(25,25,112,1) 12%, rgba(173,216,230,1) 100%);
+    text-shadow: 0 2px black;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px 1px dimgrey;
+    border-radius: 0 0 100px 100px;
+}
+
+.homepageInfo{
+    color: dimgrey;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 1px 1px black;
+}
+
+.searchBar{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+}
+
+.searchBar input{
+    padding: 15px 25px 15px 15px;
+    font-size: 30px;
+    width: 50%;
+    font-family: "Lobster", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+    color: white;
+    background: rgb(25,25,112);
+    background: linear-gradient(125deg, rgba(25,25,112,1) 90%, rgba(173,216,230,1) 100%);
+    box-shadow: 0 5px 5px 1px dimgrey;
+    text-shadow: 0 2px black;
+}
+
+.searchBar input::placeholder{
+    color: white;
+}
+
+.searchBar input:focus{
+    color: white;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    
+}
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+#tweet-view{
+    
+}

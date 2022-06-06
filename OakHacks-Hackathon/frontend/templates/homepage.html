@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    <link rel="stylesheet" type= "text/css" href="../static/main.css">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="{{url_for('static', filename='customJS.js')}}"></script>
+    <title>Twitalytics Home</title>
+</head>
+<body>
+    <div class="titlez">
+        <a > Twitalytics </a>
+    </div>
+    <div class="homepageInfo">
+        <a> Twitalytics is a tool that helps you explore the impact social media has on the stock market.
+            <br>
+            Twitalytics tries to find correlations between tweets from CEO's and the price movement of their companies.
+        </a>
+    </div>
+
+    <div class="searchBar">
+        <br>
+        <a>
+            Just enter the name of the CEO you wish to search!
+        </a>
+        <br>
+        <input type="text" placeholder="Elon Musk...for example.">
+        <br>
+    </div>
+    <div>
+        <canvas id="mixed-chart" width="800px"></canvas>
+    </div>
+    <a class="tweet">Tweet here: <br> </a>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.oakhacks.com/">Created for OakHacks</a>
+            </li>
+            <li>
+                About the Creators? Add image cards for both peeps here
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
