@@ -4,4 +4,4 @@ Compairs the tweets of a CEO to the stock price, this was for an old hackathon I
 Lost the original ReadMe file, but it was built using flask, Javascript, ChartsJS and CSS. Leave a message and I can add the deployment iff required.
 
 Youtube video of the app running:
-https://www.youtube.com/watch?v=7KF-IoUSMwg&t=113s&ab_channel=JamesButson
+https://youtu.be/7KF-IoUSMwg
